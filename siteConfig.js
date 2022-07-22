@@ -1,12 +1,11 @@
-
 module.exports = {
   siteUrl: "https://tikvahadasha.co.il", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "תקווה חדשה", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "tikvahadasha", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "תקווה חדשה", // This allows an alternative site description for meta data for pages.
+    "tikvahadasha", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
@@ -18,7 +17,7 @@ module.exports = {
   apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
     visible: true,
-    title: "תקווה חדשה",
+    title: "tikvahadasha",
     helpText: "הישארו מעודכנים",
     successMessage: "תודה ההודעה נשלחה בהצלחה",
   },
@@ -64,23 +63,23 @@ module.exports = {
     dribbble: "",
     behance: "",
     externalLink: "",
-    whatsapp: "https://api.whatsapp.com/send/?phone=972528934196",
+    whatsapp: "",
   },
   contactWidget: {
     title: "https://tikvahadasha.co.il/",
-    successMessage: "נחזור אליך בהקד.",
+    successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "תקווה חדשה",
+    title: "goldko",
     description:
-      "תקווה חדשה",
+      "goldko",
   },
   twitterCard: {
     title: "",
     description:
       "",
     imageUrl: "twitterImage.png",
-    username: "",
+    username: "@DraftboxHQ",
   },
   facebookCard: {
     title: "Built with Draftbox",
