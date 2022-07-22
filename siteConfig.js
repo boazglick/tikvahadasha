@@ -1,23 +1,24 @@
+
 module.exports = {
   siteUrl: "https://tikvahadasha.co.il", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "תקווה חדשה", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "tikvahadasha", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "תקווה חדש - אתר החדשות שנותן לכולנו תקווה בלב", // This allows an alternative site description for meta data for pages.
+    "tikvahadasha", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "תקווה חדשה", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "tikvahadasha", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
-  apiUrl: "https://spidernet.co.il",
+  apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
     visible: true,
-    title: "תקווה חדשה",
+    title: "tikvahadasha",
     helpText: "הישארו מעודכנים",
     successMessage: "תודה ההודעה נשלחה בהצלחה",
   },
@@ -67,12 +68,26 @@ module.exports = {
   },
   contactWidget: {
     title: "https://tikvahadasha.co.il/",
-    successMessage: "ניצור עמך קשר בהקדם.",
+    successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "תקווה חדשה",
+    title: "goldko",
     description:
-      "תקווה חדשה",
+      "goldko",
+  },
+  twitterCard: {
+    title: "",
+    description:
+      "",
+    imageUrl: "twitterImage.png",
+    username: "@DraftboxHQ",
+  },
+  facebookCard: {
+    title: "Built with Draftbox",
+    description:
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+    imageUrl: "facebookImage.png",
+    appId: "2391725224459953",
   },
   siteTitle: "tikvahadasha",
   siteDescription:
@@ -105,7 +120,6 @@ module.exports = {
     {
       href: 'https://tikvahadasha.ussl.co.il/style.css',
       type: 'text/css',
-      direction: "rtl",
     },
   ],
 
