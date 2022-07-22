@@ -3,21 +3,21 @@ module.exports = {
 
   postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "tikvahadasha", // This allows an alternative site title for meta data for pages.
+  siteTitleMeta: "תקווה חדשה", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
-    "tikvahadasha", // This allows an alternative site description for meta data for pages.
+    "תקווה חדש - אתר החדשות שנותן לכולנו תקווה בלב", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "tikvahadasha", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "תקווה חדשה", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
   themeColor: "#15171A", // Used for Offline Manifest
-  apiUrl: "https://wordpress.theasdfghjkl.com",
+  apiUrl: "https://spidernet.co.il",
   subscribeWidget: {
     visible: true,
-    title: "tikvahadasha",
+    title: "תקווה חדשה",
     helpText: "הישארו מעודכנים",
     successMessage: "תודה ההודעה נשלחה בהצלחה",
   },
@@ -67,26 +67,12 @@ module.exports = {
   },
   contactWidget: {
     title: "https://tikvahadasha.co.il/",
-    successMessage: "We’ll get in touch with you soon.",
+    successMessage: "ניצור עמך קשר בהקדם.",
   },
   metadata: {
-    title: "goldko",
+    title: "תקווה חדשה",
     description:
-      "goldko",
-  },
-  twitterCard: {
-    title: "",
-    description:
-      "",
-    imageUrl: "twitterImage.png",
-    username: "@DraftboxHQ",
-  },
-  facebookCard: {
-    title: "Built with Draftbox",
-    description:
-      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
-    imageUrl: "facebookImage.png",
-    appId: "2391725224459953",
+      "תקווה חדשה",
   },
   siteTitle: "tikvahadasha",
   siteDescription:
@@ -119,6 +105,7 @@ module.exports = {
     {
       href: 'https://tikvahadasha.ussl.co.il/style.css',
       type: 'text/css',
+      direction: "rtl",
     },
   ],
 
