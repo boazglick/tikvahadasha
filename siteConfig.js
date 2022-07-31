@@ -70,9 +70,9 @@ module.exports = {
     successMessage: "We’ll get in touch with you soon.",
   },
   metadata: {
-    title: "goldko",
+    title: "tikvahadasha",
     description:
-      "goldko",
+      "tikvahadasha",
   },
   twitterCard: {
     title: "",
