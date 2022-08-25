@@ -95,10 +95,10 @@ module.exports = {
     "tikvahadasha",
   language: "he",
   direction: "rtl",
-  logoUrl: "logo.png",
+  logoUrl: "",
   iconUrl: "favicon.png",
   coverUrl: "cover.jpg",
-  alternateLogoUrl: "logo.png",
+  alternateLogoUrl: "",
   themeConfig: {
     variables: [
       {
