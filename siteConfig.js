@@ -44,12 +44,14 @@ module.exports = {
         label: "Sitemap",
         url: "https://tikvahadasha.co.il/sitemap.xml",
       },
-      
       {
         label: "יצירת קשר",
         url: "https://tikvahadasha.co.il/contact",
       },
-     
+     {
+        label: "אתר המסיבות",
+        url: "https://indexparty.co.il",
+      },
     ],
   },
   socialLinks: {
