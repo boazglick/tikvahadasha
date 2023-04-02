@@ -1,5 +1,5 @@
 {
-  "baseUrl": "tikvahadasha.ussl.co.il",
+  "baseUrl": "spider.ussl.co.il/tikvahadasha",
   "protocol": "https",
   "hostingWPCOM": false,
   "useACF": true,
